@@ -42,8 +42,7 @@ Optionally you can set `pattern` and `interval` parameters using the formats
 expressed in the example configuration file:
 
  - `pattern` is used for checking raw HTML response body and uses
-   [Python regular expression syntax]
-   (https://docs.python.org/3/library/re.html#regular-expression-syntax)
+   [Python regular expression syntax](https://docs.python.org/3/library/re.html#regular-expression-syntax)
  - `interval` is the number of seconds between checks
 
 The URLs will be checked in regular intervals,
