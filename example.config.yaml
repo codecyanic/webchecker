@@ -1,0 +1,17 @@
+kafka:
+    topic: webchecker
+    bootstrap_servers: DOMAIN:PORT
+    security_protocol: SSL
+    ssl_cafile: ca.crt
+    ssl_certfile: client.crt
+    ssl_keyfile: client.key
+
+urls:
+    'URL1':                     # object
+        pattern: 'PATTERN'      # regex search pattern
+        interval: 3600          # schedule interval
+    'URL2': ['PATTERN', 3600]   # array
+    'URL4': 'PATTERN'           # string
+    'URL5':                     # none
+
+debug: false
